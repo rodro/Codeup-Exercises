@@ -14,6 +14,10 @@ for( $number=1; $number<=100; $number++ ){
 
 }
 
+for( $number=1; $number<=100; $number++ ){
+  if(i
+
+}
 
 
 ?>
