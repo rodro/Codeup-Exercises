@@ -48,7 +48,8 @@ $companies =[
 
 ];
 
-arsort($companies);
-foreach ($companies as $key => $val) {
-    echo "$key = $val\n";
-}
+ksort($companies);
+print_r($companies);
+// foreach ($companies as $key => $val) {
+//     echo "$key = $val\n";
+// }
