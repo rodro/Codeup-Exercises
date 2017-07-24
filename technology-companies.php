@@ -45,14 +45,14 @@ $companies =[
 
 
     ]
-
+-
 ];
 
 ksort($companies);
 // print_r($companies);
 foreach ($companies as $key => $val) {
     sort($val);
-    $companies[$key]= $val;
+    $companies[$key]= $val
     // var_dump($val);
 
 }
