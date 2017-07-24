@@ -49,7 +49,11 @@ $companies =[
 ];
 
 ksort($companies);
+// print_r($companies);
+foreach ($companies as $key => $val) {
+    sort($val);
+    $companies[$key]= $val;
+    // var_dump($val);
+
+}
 print_r($companies);
-// foreach ($companies as $key => $val) {
-//     echo "$key = $val\n";
-// }
